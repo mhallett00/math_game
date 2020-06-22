@@ -1,6 +1,6 @@
 class Player
 
-  attr_accessor :life
+  attr_accessor :life, :current
   attr_reader :name
 
   def initialize (name)

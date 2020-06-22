@@ -10,8 +10,8 @@ class Question
     @answer = 0
   end
   
-  def ask_question(player)
-    puts"#{player}: What does #{@num1} plus #{@num2} equal?"
+  def ask_question
+    puts "What does #{@num1} plus #{@num2} equal?"
     print "> "
     self.answer = gets.chomp.to_i
   end
